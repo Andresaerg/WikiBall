@@ -1,0 +1,29 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    font-size: 15pt;
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Sans-Serif;
+    font-size: 60pt;
+    text-align: center;
+}
+
+h2{
+    margin:10px;
+    padding:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Sans-Serif;
+    font-size: 20pt;
+    text-align: justify;
+}
+
+p{
+    margin:10px;
+    padding:10px;
+}

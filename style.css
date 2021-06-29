@@ -13,14 +13,46 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Sans-Serif;
     font-size: 60pt;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: ghostwhite;
 }
 
 h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Sans-Serif;
+    font-size: 10pt;
+    text-align: center;
+}
+
+h3{
     margin:10px;
     padding:10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Sans-Serif;
     font-size: 20pt;
     text-align: justify;
+}
+
+header{
+    margin: 0px;
+    padding: 80px;
+    width: 630px;
+    height: 730px;
+    background: darkgoldenrod;
+    border: 5px solid white;
+    <!--border-radius: 10px;-->
+}
+
+div {
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ddd;
+    width: 730px;
+}
+
+footer{
+    margin:0px;
+    padding: 20px;
+    width: 967px;
+    height: 10px;
+    font-size: 10pt;
 }
 
 p{

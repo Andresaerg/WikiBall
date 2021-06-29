@@ -7,7 +7,29 @@ body{
     margin:0px;
     padding:0px;
     font-size: 15pt;
+    background-image: url("Paintball1.jpg");
+    background-size: 110vw 170vh;
+    background-repeat: no-repeat;
 }
+
+.capa{
+    width: 79%;
+    height: 88vw;
+    position: absolute;
+    background: #ddd;
+    opacity: 0.5;
+}
+
+.capa2{
+    width: 15%;
+    height: 87vw;
+    position: absolute;
+    background: #ddd;
+    opacity: 0.5;
+    margin-left: 84%;
+    border: 5px solid rgb(255, 255, 255);
+}
+
 
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', Sans-Serif;
@@ -36,26 +58,48 @@ header{
     padding: 80px;
     width: 630px;
     height: 730px;
-    background: darkgoldenrod;
+    /*background: darkgoldenrod;*/
     border: 5px solid white;
-    <!--border-radius: 10px;-->
+    border-radius: 10px;
 }
 
 div {
     border-radius: 10px;
-    box-shadow: 0 0 15px #ddd;
-    width: 730px;
+    box-shadow: 0 0 15px rgb(102, 15, 15);
+    width: 800px;
+    height: 900px;
 }
 
 footer{
     margin:0px;
     padding: 20px;
-    width: 967px;
+    width: 350px;
     height: 10px;
     font-size: 10pt;
 }
 
 p{
-    margin:10px;
+    margin:0px;
     padding:10px;
 }
+
+.parrafo{
+    z-index: 1;
+    position:absolute;
+    width: 760px;
+    height: 860px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 5px 25px rgba(112, 15, 15, 0.45);
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+}
+
+.parrafo img{
+    width: 310px;
+    border-radius: 10px;
+    float: right;
+    margin: 20px;
+}
+

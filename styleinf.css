@@ -7,14 +7,14 @@ body{
     margin:0px;
     padding:0px;
     font-size: 15pt;
-    background-image: url("Paintball0.jpg");
-    background-size: 110vw 230vh;
+    background-image: url("Paintball1.jpg");
+    background-size: 110vw 170vh;
     background-repeat: no-repeat;
 }
 
 .capa{
-    width: 800px;
-    height: 124vw;
+    width: 79%;
+    height: 88vw;
     position: absolute;
     background: #ddd;
     opacity: 0.5;
@@ -57,19 +57,17 @@ header{
     margin: 0px;
     padding: 80px;
     width: 630px;
-    height: 1100px;
+    height: 730px;
     /*background: darkgoldenrod;*/
     border: 5px solid white;
     border-radius: 10px;
-    position:absolute;
-    min-height: 1100px;
 }
 
 div {
     border-radius: 10px;
-    box-shadow: 0 0 15px/* rgb(255, 0, 140)*/yellow;
+    box-shadow: 0 0 15px rgb(255, 175, 0);
     width: 800px;
-    height: 1270px;
+    height: 900px;
 }
 
 footer{
@@ -86,7 +84,7 @@ p{
     z-index: 1;
     position: absolute;
     line-height: 3;
-    box-shadow: 0 0 15px rgb(255, 0, 140);
+    box-shadow: 0 0 15px rgb(100, 15, 15);
     border-radius: 10px;
     text-align: center;
     height: 500px;
@@ -97,10 +95,10 @@ p{
     z-index: 1;
     position:absolute;
     width: 760px;
-    height: 1230px;
+    height: 860px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 1px 5px 25px yellow;
+    box-shadow: 1px 5px 25px rgb(255, 175, 0);
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.2;
@@ -111,8 +109,4 @@ p{
     border-radius: 10px;
     float: right;
     margin: 20px;
-}
-
-ul{
-    margin: 15px;
 }

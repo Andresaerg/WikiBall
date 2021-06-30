@@ -61,6 +61,8 @@ header{
     /*background: darkgoldenrod;*/
     border: 5px solid white;
     border-radius: 10px;
+    position:absolute;
+    min-height: 1100px;
 }
 
 div {

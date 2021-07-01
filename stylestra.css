@@ -7,14 +7,14 @@ body{
     margin:0px;
     padding:0px;
     font-size: 15pt;
-    background-image: url("Paintball1.jpg");
-    background-size: 110vw 170vh;
+    background-image: url("CampoPaintball.jpg");
+    background-size: 110vw 290vh;
     background-repeat: no-repeat;
 }
 
 .capa{
     width: 79%;
-    height: 88vw;
+    height: 145vw;
     position: absolute;
     background: #ddd;
     opacity: 0.5;
@@ -36,7 +36,7 @@ h1{
     font-size: 60pt;
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: ghostwhite;
+    text-decoration-color: black;
 }
 
 h2{
@@ -57,7 +57,7 @@ header{
     margin: 0px;
     padding: 80px;
     width: 630px;
-    height: 730px;
+    height: 1315px;
     /*background: darkgoldenrod;*/
     border: 5px solid white;
     border-radius: 10px;
@@ -67,7 +67,7 @@ div {
     border-radius: 10px;
     box-shadow: 0 0 15px teal;
     width: 800px;
-    height: 900px;
+    height: 1480px;
 }
 
 footer{
@@ -95,7 +95,7 @@ p{
     z-index: 1;
     position:absolute;
     width: 760px;
-    height: 860px;
+    height: 1445px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 1px 5px 25px teal;
